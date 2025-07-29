@@ -28,6 +28,15 @@ const projects = [
     demoUrl: "https://urbanist-project.vercel.app/",
     githubURl: "https://github.com/rmandici/urbanist_project",
   },
+  {
+    id: 4,
+    title: "CDprospect",
+    description: "The reinterpretation of cdprospect.fr",
+    image: "/projects/picture4.png",
+    tags: ["React", "TailwindCSS", "TypeScript"],
+    demoUrl: "https://cdprospect.vercel.app/",
+    githubURl: "https://github.com/rmandici/cdprospect",
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -45,11 +54,11 @@ export const ProjectsSection = () => {
           smooth user experiences.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hober"
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
                 <img

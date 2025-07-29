@@ -25,7 +25,7 @@ const projects = [
     description: "The 1 page website for UMstudio",
     image: "/projects/picture3.png",
     tags: ["React", "TailwindCSS", "TypeScript"],
-    demoUrl: "https://urbanist-project.vercel.app/",
+    demoUrl: "https://www.umstudio.ro/",
     githubURl: "https://github.com/rmandici/urbanist_project",
   },
   {

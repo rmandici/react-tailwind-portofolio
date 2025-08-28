@@ -37,6 +37,15 @@ const projects = [
     demoUrl: "https://cdprospect.vercel.app/",
     githubURl: "https://github.com/rmandici/cdprospect",
   },
+  {
+    id: 5,
+    title: "Proimages",
+    description: "Conversion from wordpress to custom react",
+    image: "/projects/picture5.png",
+    tags: ["React", "TailwindCSS", "TypeScript", "FramerMotion", "Supabase"],
+    demoUrl: "https://proimages.vercel.app/",
+    githubURl: "https://github.com/rmandici/proimages",
+  },
 ];
 
 export const ProjectsSection = () => {

@@ -14,7 +14,7 @@ const skills = [
   { name: "Node.Js", level: 85, category: "Backend" },
   { name: "Express", level: 75, category: "Backend" },
   { name: "MongoDB", level: 65, category: "Backend" },
-  { name: "Firebase", level: 55, category: "Backend" },
+  { name: "Supabase", level: 65, category: "Backend" },
   { name: "Prisma", level: 60, category: "Backend" },
 
   //Tools

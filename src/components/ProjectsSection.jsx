@@ -46,6 +46,15 @@ const projects = [
     demoUrl: "https://proimages.vercel.app/",
     githubURl: "https://github.com/rmandici/proimages",
   },
+  {
+    id: 6,
+    title: "Souperior",
+    description: "A website for a restaurant",
+    image: "/projects/picture6.png",
+    tags: ["NextJS", "TailwindCSS", "TypeScript"],
+    demoUrl: "https://souperior.vercel.app/",
+    githubURl: "https://github.com/rmandici/souperior",
+  },
 ];
 
 export const ProjectsSection = () => {
